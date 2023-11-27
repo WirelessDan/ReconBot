@@ -1,3 +1,6 @@
 #!/bin/bash
 
-subfinder -d airbnb.com > airbnb.txt | anew | notify
+while true;
+    do subfinder -silent -dL domains.txt -all | anew subdomains.txt | notify;
+    sleep 3600;
+done
