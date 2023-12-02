@@ -1,3 +1,5 @@
 airbnb.com
 kraken.com
 coinbase.com
+marriot.com
+rei.com
